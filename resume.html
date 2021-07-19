@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>e-Resume</title>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+*{ 
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #B3CED0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image:url(201.png) ;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+/* Main column */
+.main {   
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 80%;
+  }
+}
+
+</style>
+</head>
+
+<div class="header">
+    <h1>INTAN SYAFINAZ AZNI</h1>
+    <p>Information Specialist.</p>
+  </div>
+  
+  <div class="navbar">
+    <a href="contact.html">Contact</a>
+  <a href="resume.html">Resume</a>
+  <a href="video.html">Video</a>
+  <a href="skills and language.html">Skills and Languages</a>	       
+  <a href="educational.html">Educational and Qualification</a>
+  <a href="new.html">Personal Information</a>
+  <a href="index.html">Home</a>
+  </div>
+  
+  <body>
+        <center>
+        <br>
+        <h1>e-Resume</h1>
+        </center>
+	   <center>
+	<div class="img">
+	  <div class="gallery">
+	   <img src="intan.png" width="500" height="700"></a>
+	   <br>
+	   <br>
+	   <br>
+	   <div class="footer">
+		<p> &COPY;Copyright 2021. Syafinazni.com.</p>
+	   </div> 
+	 </center> 
+ </header>        
+</body>
+	
+</html>  
